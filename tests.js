@@ -12,7 +12,11 @@ describe('Checkout', () => {
       id: 1, name: 'iPhone Charger', price: 19.95, discount: .12,
       quantity: 2, total: 35.11
     }]
+//console.log(items)
 
-    expect(checkout.calculateTotal(items)).to.deep.equal(expected)
+//let result = checkout.calculateTotal(items);
+
+//console.log(result)
+   expect(checkout.calculateTotal(items)).to.deep.equal(expected)
   })
 })
